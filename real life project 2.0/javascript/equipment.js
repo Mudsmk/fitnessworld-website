@@ -1,0 +1,1 @@
+document.querySelectorAll('.videogallery video').forEach(video => {video.addEventListener('click', ()=> {if (video.paused){video.play();}else{video.pause();}});});
